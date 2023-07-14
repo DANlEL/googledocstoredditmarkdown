@@ -289,7 +289,6 @@ function processTextElement(inSrc, txt) {
     }
 
     // Modified bold and italics function to be Reddit markdown friendly 
-    // Bug: Removes all whitespace even in the middle of words lmao
     if (txt.isBold(off)) {
       var d1 = d2 = "**";
       if (txt.isItalic(off)) {
